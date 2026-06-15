@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- css cdn -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+
+            <div class="container">
+
+                <!-- LOGO (LEFT) -->
+                <a class="logo navbar-brand fw-bold" href="#"><img src="./images/logo-image.png" alt="logo-image"></a>
+
+                <!-- TOGGLER -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- MENU -->
+                <div class="collapse navbar-collapse" id="navMenu">
+
+                    <!-- LINKS (CENTER) -->
+                    <ul class="navbar-nav mx-auto text-center mb-3 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#">Product</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#">About</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- ICONS (RIGHT) -->
+                    <div class="d-flex align-items-center justify-content-center">
+
+                        <a href="#"><i class="fa-solid fa-user me-3"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass me-3"></i></a>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!-- NAVBAR -->
+    </header>
+    <main>
+        <!-- BANNER -->
+        <section class="banner d-flex align-items-center">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- LEFT TEXT -->
+                    <div class="col-12 col-md-12 col-lg-6 text-center text-md-center text-lg-start banner-content">
+
+                        <span class="text-uppercase text-light mb-2">
+                            Skincare Collection
+                        </span>
+
+                        <h1 class="fw-bold text-white display-5 text-capitalize">
+                            relax your mind & feel the spa experience with us
+                        </h1>
+
+                        <p class="text-light mt-3">
+                            Discover premium skincare products that bring glow,
+                            confidence and natural beauty to your skin.
+                        </p>
+
+                        <button class="btn btn-outline-light mt-3 px-4 py-2 text-uppercase">
+                            get your consultation
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- BANNER -->
+        <!-- SERVICES -->
+        <section class="py-5" id="services">
+
+            <div class="container">
+
+                <!-- TITLE -->
+                <div class="text-start mb-5">
+                    <span class="text-uppercase text-muted">Discover Our Services</span>
+                    <h2 class="fw-bold mt-2">Our Premium Treatments</h2>
+                </div>
+
+                <!-- CAROUSEL -->
+                <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <!-- SLIDE 1 -->
+                        <div class="carousel-item active">
+                            <div class="row g-4">
+
+                                <!-- CARD -->
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="service-card h-100 text-center">
+                                        <figure>
+                                            <img  class="img-fluid w-100" src="./images/service1.png" alt="botox">
+                                        </figure>
+                                        <div class="service-top">
+                                            <span>BASIC CARE</span>
+                                        </div>
+
+                                        <div class="service-center text-center">
+                                            <h3>BOTOX</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- CARD -->
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="service-card h-100 text-center">
+                                        <figure>
+                                            <img class="img-fluid w-100" src="./images/service2.png" alt="lip fillers">
+                                        </figure>
+                                        <div class="service-top">
+                                            <span>SKIN BOOST</span>
+                                        </div>
+
+                                        <div class="service-center text-center">
+                                            <h3>LIP FILLERS</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- CARD -->
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="service-card h-100 text-center">
+                                        <figure>
+                                            <img class="img-fluid w-100" src="./images/service3.png" alt="laser">
+                                        </figure>
+                                        <div class="service-top">
+                                            <span>ADVANCED</span>
+                                        </div>
+
+                                        <div class="service-center text-center">
+                                            <h3>LASER HAIR REMOVAL</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 2 -->
+                        <div class="carousel-item">
+                            <div class="row g-4">
+
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="service-card h-100 text-center">
+                                        <figure>
+                                            <img class="img-fluid w-100" src="./images/service3.png" alt="skin">
+                                        </figure>
+                                        <div class="service-top">
+                                            <span>CARE</span>
+                                        </div>
+
+                                        <div class="service-center text-center">
+                                            <h3>SKIN TREATMENT</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="service-card h-100 text-center">
+                                        <figure>
+                                            <img  class="img-fluid w-100"src="./images/service2.png" alt="facial">
+                                        </figure>
+                                        <div class="service-top">
+                                            <span>BEAUTY</span>
+                                        </div>
+
+                                        <div class="service-center text-center">
+                                            <h3>FACIAL CARE</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="service-card h-100 text-center">
+                                        <figure>
+                                            <img class="img-fluid w-100" src="./images/service1.png" alt="laser">
+                                        </figure>
+                                        <div class="service-top">
+                                            <span>MODERN</span>
+                                        </div>
+
+                                        <div class="service-center text-center">
+                                            <h3>LASER CARE</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ARROWS -->
+                    <div class="services-arrows">
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- SERVICES -->
+        <!-- ABOUT SECTION-->
+        <section class="about-section py-5">
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <!-- TEXT -->
+                    <div class="col-12 col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+
+                        <h2 class="about-title fw-bold display-6 mb-3 text-capitalize">
+                            One of everything really good
+                        </h2>
+
+                        <p class="about-text text-muted mb-3">
+                            We believe that healthy, beautiful skin makes for healthy, beautiful minds.
+                            You can browse our skincare services and products easily from here.
+                        </p>
+
+                        <button class="btn about-btn mt-3 px-4 py-2">
+                            Meet Lumina Team
+                        </button>
+
+                    </div>
+
+                    <!-- IMAGE -->
+                    <div class="col-12 col-lg-6 text-center about-right">
+
+                        <figure class="about-figure">
+                            <img src="./images/about-image.png" class="img-fluid about-img" alt="about image">
+                        </figure>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- ABOUT SECTION-->
+        <!-- PRODUCTS SECTION -->
+        <section class="products-section py-5">
+            <div class="container">
+
+                <!-- TITLE -->
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold display-6 mb-4 text-center text-capitalize">
+                        our best quality selling skin products
+                    </h2>
+                </div>
+
+                <!-- PRODUCTS GRID -->
+                <div class="row">
+
+                    <!-- CARD 1 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="product-card text-center h-100">
+                            <figure>
+                                <img class="img-fluid w-100 rounded" src="./images/product1.png" alt="product">
+                            </figure>
+                            <div class="product-info">
+                                <h3 class="h5 fw-semibold mt-2">Curalogy</h3>
+                                <div class="rating">★★★★★</div>
+                                <p>$65.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="product-card text-center h-100">
+                            <figure>
+                                <img class="img-fluid w-100 rounded" src="./images/product2.png" alt="product">
+                            </figure>
+                            <div class="product-info">
+                                <h3 class="h5 fw-semibold mt-2">The Ordinary Duo</h3>
+                                <div class="rating">★★★★☆</div>
+                                <p>$108.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="product-card text-center h-100">
+                            <figure>
+                                <img class="img-fluid w-100 rounded" src="./images/product3.png" alt="product">
+                            </figure>
+                            <div class="product-info">
+                                <h3 class="h5 fw-semibold mt-2">Hyaluronic Acid</h3>
+                                <div class="rating">★★★★☆</div>
+                                <p>$14.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 4 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="product-card text-center h-100">
+                            <figure>
+                                <img class="img-fluid w-100 rounded" src="./images/product4.png" alt="product">
+                            </figure>
+                            <div class="product-info">
+                                <h3 class="h5 fw-semibold mt-2">Botanic Face Duo</h3>
+                                <div class="rating">★★★★★</div>
+                                <p>$94.99</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- BUTTON -->
+                <div class="text-center mt-4">
+                    <button class="btn shop-btn px-4 py-2">SHOP NOW</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- PRODUCTS SECTION -->
+        <!-- RELAX SECTION -->
+        <section class="relax-section d-flex align-items-center py-5 text-center text-lg-start">
+
+            <div class="container">
+
+                <div class="row justify-content-start">
+                    <div class="col-12 col-lg-6 relax-content mb-3 mb-lg-0">
+
+                        <h2 class="text-capitalize fw-bold">
+                            Relax Your Mind
+                        </h2>
+
+                        <p>
+                            Feel the spa experience with us. We provide luxury skincare
+                            treatments that refresh your body and soul.
+                        </p>
+
+                        <button class="btn relax-btn px-4 py-2">
+                            Get Free Consultation
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- RELAX SECTION -->
+        <!-- GALLERY SECTION -->
+        <section class="image-grid py-5">
+            <div class="container">
+
+                <!-- TITLE -->
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold text-capitalize display-6 text-center mb-4">Our Gallery</h2>
+                </div>
+
+                <div class="row">
+
+                    <!-- BIG IMAGE -->
+                    <div class="col-12 col-md-6 mb-3">
+                        <figure class="grid-item big">
+                            <img src="./images/image1.png" alt="gallery image">
+                        </figure>
+                    </div>
+
+                    <!-- SMALL IMAGE -->
+                    <div class="col-6 col-md-3 mb-3">
+                        <figure class="grid-item small">
+                            <img src="./images/image2.png" alt="gallery image">
+                        </figure>
+                    </div>
+
+                    <!-- SMALL IMAGE -->
+                    <div class="col-6 col-md-3">
+                        <figure class="grid-item small">
+                            <img src="./images/image3.png" alt="gallery image">
+                        </figure>
+                    </div>
+
+                    <!-- SMALL IMAGE -->
+                    <div class="col-6 col-md-3">
+                        <figure class="grid-item small">
+                            <img src="./images/image4.png" alt="gallery image">
+                        </figure>
+                    </div>
+
+                    <!-- BIG IMAGE -->
+                    <div class="col-12 col-md-6">
+                        <figure class="grid-item big">
+                            <img src="./images/image5.png" alt="gallery image">
+                        </figure>
+                    </div>
+
+                    <!-- SMALL IMAGE -->
+                    <div class="col-6 col-md-3">
+                        <figure class="grid-item small">
+                            <img src="./images/image6.png" alt="gallery image">
+                        </figure>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- GALLERY SECTION -->
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- LOGO -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+                    <a href="./index.html" class="logo"><img src="./images/logo-image.png" alt="footer-logo"></a>
+
+                    <p class="footer-text">
+                        Glow naturally with science-backed skincare rituals.
+                        Beauty, calm and confidence in every drop.
+                    </p>
+
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                </div>
+
+                <!-- LINKS 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="fw-bold mb-3">Explore</div>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+
+                <!-- LINKS 2 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="fw-bold mb-3">Support</div>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+
+                <!-- NEWSLETTER -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+                    <div class="fw-bold mb-3">Glow Updates</div>
+
+                    <p class="footer-text">
+                        Join our skincare community for exclusive tips & offers.
+                    </p>
+
+                    <form class="footer-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Join</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <div>© 2026 <a href="./index.html">Lumina</a> — Skincare made for glow </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
